@@ -11,7 +11,7 @@ wget -O "$HOME/.zshrc" 'https://raw.githubusercontent.com/MrRedacted/dzsh/master
     exit 2
   }
 
-wget -O "$HOME/.dprompt.zsh" 'https://raw.githubusercontent.com/MrRedacted/dzsh/master/.dprompt' ||
+wget -O "$HOME/.dprompt.zsh" 'https://raw.githubusercontent.com/MrRedacted/dzsh/master/.dprompt.zsh' ||
   {
     echo 'Unable to download file'
     rm "$HOME/.dprompt.zsh"

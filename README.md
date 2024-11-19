@@ -5,12 +5,6 @@ There are multiple icons and color schemes to choose from within the .dzsh.zsh f
 
 **This theme requires a nerd font, get one at [https://nerdfonts.com/](https://www.nerdfonts.com/)**
 
-## To install, use either curl or wget:
+## To install:
 
-curl - `curl -o ~/.dzsh.zsh https://raw.githubusercontent.com/MrRedacted/dzsh/master/.dzsh.zsh`
-
-wget - `wget -O ~/.dzsh.zsh https://raw.githubusercontent.com/MrRedacted/dzsh/master/.dzsh.zsh`
-
-### Then source in your .zshrc file:
-
-`. "$HOME/.dzsh.zsh"`
+wget - `bash -c "$(wget https://raw.githubusercontent.com/MrRedacted/dzsh/master/install.sh -O -)"`

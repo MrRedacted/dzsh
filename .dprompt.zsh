@@ -29,6 +29,8 @@ set_prompt_vars () {
   local alma=' '
   local rocky=' '
   local plasma=' '
+  local ubuntu=' '
+  local kubuntu=' '
 
   ## CHANGE ICON AND COLOR SCHEME HERE
   ## set to an icon variable from above or a custom icon

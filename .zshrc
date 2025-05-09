@@ -13,6 +13,7 @@ zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %
 zstyle ':completion:*' squeeze-slashes true
 zstyle ':completion:*' use-compctl false
 zstyle ':completion:*' verbose true
+zstyle ':completion:*:(scp|sftp|ssh):*' hosts
 
 autoload -Uz compinit
 compinit
